@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+nav, footer {
+    background-color: #09E667;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+a:link, a:visited {
+    background-color: #09E6B2;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: #098AE6;
+  }
+img{
+    width: 50%;
+}
+body{
+    text-align: center;
+}
