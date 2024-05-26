@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +8,13 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    font-family: "Bellota Text", helvetica, sans-serif;
+    padding: 35px;
+    font-size: 1.3em;
+}
+#hero img{
+    width: 100%;
+    margin: 0;
 }
 #hero h1, #hero h4{
     text-align: center;
@@ -18,43 +27,62 @@ main{
 }
 #background{
     height: 725px;
-    background-color: #098AE6;
+    background-color: #09E667;
+}
+.mountains{
+    width: 100%;
 }
 body{
     background-color: white;
+    font-family: "Bellota Text", helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 header{
     background-color: #09E6B2;
 }
 nav a:hover{
-    background-color: #098AE6;
-    color: #09E667;
+    text-decoration: underline;
 
 }
 .book, .join{
-    background-color: #09E61C;
+    background-color: #098AE6;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
-    background-color: #098AE6;
-    color: #09E667;
+    text-decoration: underline;
 }
 .msg{
     background-color: #09E6B2;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 0;
 }
 footer{
     background-color: #098AE6;
     color: white;
+    padding: 25px 50px;
 }
 .home-title{
-    color: white;
+    color: black;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
-    color: white;
+    color: black;
+}
+h2{
+    margin: 0;
 }
 .msg p{
     color: white;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 .msg h2{
     color: white;
@@ -64,17 +92,27 @@ footer a{
     text-decoration: none;
 }
 footer a:hover{
-    color: #09E667;
+    text-decoration: underline;
 }
 .logo{
     width: 80px;
 }
 .icon{
     width: 80 px;
+    padding-top: 10px;
 }
 footer p{
     font-size: 1.2em;
 }
 footer p:hover{
-    text-decoration: underline;
+    text-decoration: none;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.card1, .card2, .card3{
+    margin: 200px 0;
+}
+.card-img{
+    border: 4px solid black;
 }
