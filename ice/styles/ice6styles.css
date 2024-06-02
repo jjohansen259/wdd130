@@ -11,13 +11,13 @@ main{
 .cherry-picture{
     grid-column: 1/2;
     grid-row: 1/3;
-}
-.cherry-picture img{
     width: 100%;
 }
+
 .gray{
     grid-column: 2/3;
     grid-row: 1/3;
+    background-color: grey;
 }
 .head{
     grid-column: 1/3;
