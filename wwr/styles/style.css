@@ -12,22 +12,42 @@ nav a {
     padding: 35px;
     font-size: 1.3em;
 }
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
 #hero img{
     width: 100%;
     margin: 0;
 }
 #hero h1, #hero h4{
     text-align: center;
+    color: white;
 }
 .button-box{
     text-align: center;
 }
 main{
     text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1fr 10);
 }
 #background{
     height: 725px;
     background-color: #09E667;
+    grid-column: 1/11;
+    grid-row: 5/8;
 }
 .mountains{
     width: 100%;
@@ -40,6 +60,9 @@ body{
 }
 header{
     background-color: #09E6B2;
+    display: grid;
+    grid-template-columns: 150px auto;
+    opacity: 0.5;
 }
 nav a:hover{
     text-decoration: underline;
@@ -62,6 +85,8 @@ nav a:hover{
     line-height: 1.5em;
     padding: 35px;
     margin-top: 0;
+    grid-column: 6/10;
+    grid-row: 6/7;
 }
 footer{
     background-color: #098AE6;
@@ -115,4 +140,29 @@ footer .social img{
 }
 .card-img{
     border: 4px solid black;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.card-img, .mountains {
+    width: 100%;
+}
+.card1 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.card2 {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.card3 {
+    grid-column: 8/10;
+    grid-row: 2/3;
+
 }
